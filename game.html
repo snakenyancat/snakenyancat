@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="game-style.css" />
+    <script src="game-script.js"></script>
+  </head>
+  <body onload="init();">
+    <div id="game">
+      <div id="select" onclick="selectClick(event);">
+        <div>
+          <img id="star0" src="images/star.gif" class="star" />
+          <img id="star1" src="images/star.gif" class="star" />
+          <img id="star2" src="images/star.gif" class="star" />
+          <img id="star3" src="images/star.gif" class="star" />
+          <img id="star4" src="images/star.gif" class="star" />
+          <img id="star7" src="images/star.gif" class="star" />
+          <img id="star9" src="images/star.gif" class="star" />
+          <img id="star13" src="images/star.gif" class="star" />
+          <img id="star8" src="images/skullhead.gif" class="star" />
+          <img id="star5" src="images/skullhead.gif" class="star" />
+          <img id="star6" src="images/skullhead.gif" class="star" />
+          <img id="star10" src="images/skullhead.gif" class="star" />
+          <img id="star11" src="images/skullhead.gif" class="star" />
+          <img id="star12" src="images/skullhead.gif" class="star" />
+          <div id="nyancat">
+            <div>
+              <img src="images/cat.gif" /><br/>Click here to play Nyan Cat!
+            </div>
+          </div>
+          <div id="tacnayn">
+            <div>
+              <img src="images/tac.gif" /><br/>Click here to play Tac Nayn!
+            </div>
+          </div>
+        </div>
+      </div>
+      <audio id="cat-music" preload="auto">
+        <source src="sounds/song.ogg" type="audio/ogg" />
+        <source src="sounds/song.mp3" type="audio/mp3" />
+      </audio>
+      <audio id="tac-music" preload="auto">
+        <source src="sounds/tacsong.ogg" type="audio/ogg" />
+        <source src="sounds/tacsong.mp3" type="audio/mp3" />
+      </audio>
+      <canvas id="canvas" width="600" height="600"></canvas>
+    </div>
+  </body>
+</html>
+

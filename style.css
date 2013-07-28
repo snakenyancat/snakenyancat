@@ -1,0 +1,151 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: 'KILLERLASAGNARegular';
+  src: url('fonts/killerlasagna-webfont.eot');
+  src: url('fonts/killerlasagna-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/killerlasagna-webfont.woff') format('woff'),
+    url('fonts/killerlasagna-webfont.ttf') format('truetype'),
+    url('fonts/killerlasagna-webfont.svg#KILLERLASAGNARegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #003366;
+}
+
+img {
+  border: none;
+}
+
+table {
+  border-spacing: 0px;
+}
+
+#content {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#logo {
+  margin-top: 25px;
+  height: 68px;
+  background-image: url("images/logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#instructions-title {
+  color: white;
+  font-family: "KILLERLASAGNARegular", Arial;
+  font-size: 30px;
+  margin: 25px 0px -8px 100px;
+}
+
+#instructions {
+  margin: 0px 95px 0px 95px;
+}
+
+#instructions p {
+  border: 5px solid white;
+  border-radius: 5px;
+  padding: 25px;
+  color: white;
+  font-family: "KILLERLASAGNARegular", Arial;
+}
+
+#game-title {
+  color: white;
+  font-family: "KILLERLASAGNARegular", Arial;
+  font-size: 30px;
+  margin: 25px 0px -8px 100px;
+}
+
+#game {
+  text-align: center;
+  width: 800px;
+  height: 610px;
+}
+
+#game iframe {
+  border: 5px solid white;
+  border-radius: 5px;
+  width: 600px;
+  height: 600px;
+  overflow: hidden;
+}
+
+#about {
+  margin: 25px 100px 0px 100px;
+}
+
+#about table {
+  width: 100%;
+}
+
+#about a {
+  font-family: "KILLERLASAGNARegular", Arial;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+#about td+td {
+  text-align: right;
+}
+
+#paypal {
+  font-family: "KILLERLASAGNARegular", Arial;
+  margin: 25px 100px 25px 100px;
+  color: white;
+}
+
+#paypal img {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+#share {
+  margin: 25px 100px 25px 100px;
+}
+
+#share td {
+  padding-right: 25px;
+}
+
+#share td+td+td+td {
+  width: 100%;
+  color: white;
+  font-family: "KILLERLASAGNARegular", Arial;
+}
+
+#share > p {
+  color: white;
+  font-family: "KILLERLASAGNARegular", Arial;
+  padding-top: 0px;
+}
+
+#youtube {
+  width: 96px;
+  height: 35px;
+  vertical-align: middle;
+}
+
+#licence {
+  font-family: "KILLERLASAGNARegular", Arial;
+  margin: 25px 100px 25px 100px;
+  color: white;
+}
+
+#licence a {
+  color: white;
+}
+
+#licence img {
+  vertical-align: middle;
+}

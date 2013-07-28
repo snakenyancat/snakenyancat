@@ -1,0 +1,207 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: "KILLERLASAGNARegular";
+  src: url("fonts/killerlasagna-webfont.eot");
+  src: url("fonts/killerlasagna-webfont.eot?#iefix") format("embedded-opentype"),
+    url("fonts/killerlasagna-webfont.woff") format("woff"),
+    url("fonts/killerlasagna-webfont.ttf") format("truetype"),
+    url("fonts/killerlasagna-webfont.svg#KILLERLASAGNARegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+#game {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  color: white;
+  font-family: "KILLERLASAGNARegular", Arial;
+  font-size: 32px;
+}
+
+.star {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+}
+
+#star0 {
+  top: 10px;
+  left: 10px;
+}
+
+#star1 {
+  top: -10px;
+  left: 450px;
+}
+
+#star2 {
+  top: 125px;
+  left: 125px;
+}
+
+#star3 {
+  top: 100px;
+  left: 300px;
+}
+
+#star4 {
+  top: 250px;
+  left: 25px;
+}
+
+#star5 {
+  top: 250px;
+  left: 350px;
+}
+
+#star6 {
+  top: 175px;
+  left: 550px;
+}
+
+#star7 {
+  top: 400px;
+  left: 150px;
+}
+
+#star8 {
+  top: 425px;
+  left: 500px;
+}
+
+#star9 {
+  top: 500px;
+  left: 15px;
+}
+
+#star10 {
+  top: 500px;
+  left: 325px;
+}
+
+#star11 {
+  top: 550px;
+  left: 575px;
+}
+
+#star12 {
+  top: 575px;
+  left: 150px;
+}
+
+#star13 {
+  top: -20px;
+  left: 200px;
+}
+
+#select {
+  z-index: 40;
+  display: block;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-image: url('images/select.png');
+  cursor: pointer;
+}
+
+#select > div {
+  position: relative;
+}
+
+#nyancat, #tacnayn {
+  display: table;
+  position: absolute;
+  margin: -150px 0px 0px -150px;
+  width: 300px;
+  height: 300px;
+}
+
+#nyancat {
+  top: 175px;
+  left: 175px;
+}
+
+#tacnayn {
+  top: 425px;
+  left: 425px;
+}
+
+#nyancat > div, #tacnayn > div {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#nyancat img, #tacnayn img {
+  width:118px;
+  height:72px;
+}
+
+#score {
+  z-index: 50;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 20px;
+}
+
+#cat {
+  z-index: 30;
+  position: absolute;
+  width: 118px;
+  height: 72px;
+}
+
+#cherry {
+  z-index: 20;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+}
+
+#canvas {
+  z-index: 10;
+  display: block;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+#final-score {
+  display: table;
+  font-family: "KILLERLASAGNARegular", Arial;
+  color: white;
+  font-size: medium;
+}
+
+#final-score div {
+  width: 600px;
+  height: 600px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#final-score span {
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#final-score p {
+  padding: 12.5px 0px 12.5px 0px;
+}
+
+#final-score img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 12.5px;
+}
